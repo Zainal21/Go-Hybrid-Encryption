@@ -13,6 +13,7 @@ import (
 )
 
 func main() {
+	// generateRsaKey()
 	// Generate a symmetric key for data encryption
 	symmetricKey := make([]byte, 32)
 	if _, err := rand.Read(symmetricKey); err != nil {
